@@ -109,7 +109,7 @@ while True:
     marks = int(input("Enter marks for the student: "))
     school.add_marks(student_id, course_id, marks)
 
-# Listing functions
+# Listing the functions
 school.list_courses()
 school.list_students()
 student_id = input("Enter student ID to show marks for: ")
